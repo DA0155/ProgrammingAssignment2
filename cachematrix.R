@@ -1,6 +1,14 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## makeCacheMatrix creates a list of functions that can
+## accept an input matrix and cache it's inverse.
+
+## cacheSolve returns the inverse matrix from the 
+## cached value if it exists or by calculating 
+## and caching the inverse.
+
+
 ## Write a short comment describing this function
 ## 
 makeCacheMatrix <- function(x = matrix()) {
